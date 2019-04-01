@@ -3,8 +3,8 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(name='[package_name]',
-      version='0.2',
+setuptools.setup(name='helper_functions',
+      version='0.1',
       author='Alex Frech',
       author_email='frechfrechfrech@gmail.com',
       description='[description]',
@@ -20,7 +20,7 @@ setuptools.setup(name='[package_name]',
             'mysqlclient==1.3.14',
             'matplotlib==2.2.2',
             'seaborn==0.9.0',
-      ]
+      ],
       classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
