@@ -5,7 +5,6 @@ import psycopg2
 import MySQLdb
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import pyplot as plt
-import importlib
 
 ########################################################
 # Database helpers
