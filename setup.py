@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(name='helper_functions',
+setuptools.setup(name='helper_functions-frechfrechfrech',
       version='0.1',
       author='Alex Frech',
       author_email='frechfrechfrech@gmail.com',
