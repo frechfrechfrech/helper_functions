@@ -13,7 +13,14 @@ setuptools.setup(name='[package_name]',
       url='[github url]',
       license='MIT',
       packages=setuptools.find_packages(),
-      # zip_safe=False,
+      install_requires = [
+            'pandas==0.23.4',
+            'numpy==1.14.3',
+            'psycopg2==2.7.5',
+            'mysqlclient==1.3.14',
+            'matplotlib==2.2.2',
+            'seaborn==0.9.0',
+      ]
       classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
