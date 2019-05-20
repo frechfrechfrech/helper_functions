@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 def plot_3d_with_hue(df, cols = ['x','y','z'], hue_col='hue', title='', \
-    xlabel='X', ylabel='Y', zlabel='Z', figsize=(8,8), hue_color_dict={}\
+    xlabel='X', ylabel='Y', zlabel='Z', figsize=(8,8), hue_color_dict={},\
     fig_filepath=None):
     '''
     Generalized function to plot pandas dataframe values in 3d
