@@ -34,7 +34,7 @@ def execute_query_in_redshift(query, select_statement=True, password_filepath='d
     host, port, dbname, user = database_credentials(db = 'redshift', machine = machine)
 
     # Connect to an existing database
-    conn = psycopg2.connect(host=host, port=port, dbname=dbname, user=user,                             password=password)
+    conn = psycopg2.connect(host=host, port=port, dbname=dbname, user=user, password=password)
     cur = conn.cursor()
     query = """{}""".format(query)
 
@@ -60,7 +60,6 @@ def execute_query_in_mysql(query, select_statement=True, password_filepath='data
         password=myfile.read().rstrip('\n')
     host, port, dbname, user = database_credentials(db = 'mysql', machine = machine)
 
-    # db=MySQLdb.connect(passwd="wE7raYut",host = '127.0.0.1', user='lms_dbuser', db='lms',port=31060)
     conn=MySQLdb.connect(passwd=password,host = host, user=user, db=dbname,port=port)
     cur=conn.cursor()
 
