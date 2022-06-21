@@ -15,7 +15,7 @@ setuptools.setup(name='my_little_helpers-frechfrechfrech',
       packages=setuptools.find_packages(),
       install_requires = [
             'pandas==0.23.4',
-            'numpy==1.14.3',
+            'numpy==1.22.0',
             'psycopg2==2.7.5',
             'mysqlclient==1.3.14',
             'matplotlib==2.2.2',
